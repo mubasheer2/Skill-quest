@@ -24,7 +24,8 @@ const App = () => (
       <GameProvider>
         <Toaster />
         <Sonner />
-       <BrowserRouter basename="/DevConnect/skill-quest">
+       <BrowserRouter 
+       >
           <Routes>
             <Route element={<AppLayout />}>
               <Route path="/" element={<Dashboard />} />
